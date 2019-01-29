@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+ 
+</head>
+<body>
+
+    <!-- <audio autoplay=true controls> 
+        <source src="audio/The-Pink-Panther-Theme-Song.mp3" >
+    </audio>-->
+    <iframe src="audio/The-Pink-Panther-Theme-Song.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio id="player" autoplay loop>
+        <source src="audio/The-Pink-Panther-Theme-Song.mp3" type="audio/mp3">
+    </audio>
+    <!-- <img src="images/background.jpg" alt="Pink Panther"> -->
+
+    <h1>Tic Tac Toe Game</h1>
+    <div>
+    <!-- <button> Two Player</button> <a href="index2.html"><button> One Player</button></a> -->
+    <p> Score: <p id='message1'></p></p>
+     <!-- <p id='message2'></p> -->
+    <!-- <p id='message2'> Score O:</p> -->
+</div>
+    <!-- <canvas id="myCanvas" width="600" height="600" style="border:1px solid #000000;"> -->
+    
+        <table  align="center" class="board">
+            <tr id='first-row'>  <!-- first row  -->
+            <td class='position' id='position1'></td>
+            <td class='position' id='position2'></td>
+            <td class='position' id='position3'></td>
+              </tr>
+            <tr id='second-row'> <!-- Second row  -->
+            <td class='position' id='position4'></td>
+            <td class='position' id='position5'></td>
+            <td class='position' id='position6'></td>
+              </tr>
+            <tr id='third-row'> <!-- third row  -->
+            <td class='position' id='position7'></td>
+            <td class='position' id='position8'></td>
+            <td class='position' id='position9'></td>
+              </tr>
+            </table>
+            <button id='restart'>Try Again</button>
+            <img src="images/pink-panther-logo-9961AB69EB-seeklogo.com.png" alt="Pink Panther">
+           
+
+    <!-- </canvas> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>    
+    <script src="inst.js"></script>
+</body>
+</html>
