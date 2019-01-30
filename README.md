@@ -1,4 +1,4 @@
-**Tic Tac Toe Game**</br>
+#Tic Tac Toe Game</br>
 **Description:**</br>
 It is a Pink Panther theme game where two players choose either an X or O to start a game in turns. The player who places three marks in vertical, horizontal, or diagonal row wins the game and shows a draw if neither player wins.</br>
 **Technologies used:**</br>
@@ -98,7 +98,7 @@ ___
 2-  <iframe src="audio/The-Pink-Panther-Theme-Song.mp3" allow="autoplay" id="audio" style="display:none"></iframe></br>
     <audio id="player" autoplay loop></br>
         <source src="audio/The-Pink-Panther-Theme-Song.mp3" type="audio/mp3"></br>
-    </audio> //to paly the audio once the game start.</br>
+    </audio></br>
 **Acknowledgement**</br>
 I would like to thank Michael Finneran, Moath Althawad, and Usman Bashir for helping, encouraging, and motivating me in this project.</br>
 Also, I would like to thank my friends Hala Al Maimoni and Saja AlGadhi for assisting me with issues and errors that faced me in this project.
