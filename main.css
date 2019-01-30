@@ -68,3 +68,40 @@ div{
     margin-top: 0;
     margin-bottom: 0;
   }
+  footer{
+      color: rgb(197, 74, 197);
+      text-align: center;
+      /* padding-top: 25px; */
+      font-size:30px;
+      font-weight: 900;
+      background-color: rgb(247, 192, 201);
+      margin-top: 20px;
+      padding: 15px;
+  }
+  span
+  {
+      color: deeppink;
+ 
+     
+  }
+  #links{
+    padding-bottom: 0px;
+
+  }
+  #links.main{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    padding-bottom: 0px;
+
+  }
+  #par{
+    color:rgb(175, 80, 112);
+    font-weight: bold;
+    font-size:30px;
+  }
+  #h{
+      color: rgb(116, 58, 116);
+    font-weight: bold;
+    font-size:40px;   
+  }
