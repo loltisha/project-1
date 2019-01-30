@@ -19,7 +19,7 @@ ___
 3- Keeping track of multiple game rounds with a win counter.</br>
 4- The main header changing its color from pink to black.</br>
 5- Try Again button, clears the board and continue game with previous score. </br>
-6- Dispaly message using swal library to notify the player if they win or not. 
+6- Dispaly message using swal library to notify the player if they win or not. </br>
 **The approach used:**</br>
 1- If else statment to check the winner.</br>
 2- Object that have the score for the two players.</br>
