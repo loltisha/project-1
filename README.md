@@ -1,5 +1,4 @@
 **Tic Tac Toe Game**</br>
-![alt text](images/a12.png.png)
 **Description:**</br>
 It is a Pink Panther theme game where two players choose either an X or O to start a game in turns. The player who places three marks in vertical, horizontal, or diagonal row wins the game and shows a draw if neither player wins.</br>
 **Technologies used:**</br>
@@ -13,7 +12,7 @@ There are three main functions:</br>
 Add the content for the page, it has a header, table, images, and button.</br>
 **CSS File:**</br>
 add the style for the HTML page.</br>
----
+___
 **Features Used:**</br>
 1- Player choose a picture of panther's foot print instead of X and O.</br>
 2- Once the game start the audio start to play.</br>
@@ -76,7 +75,7 @@ tr,td {
 The two property are working together to hide the text int the table</br>
 **New approach to display a message**</br>
 using swal library in the JavaScript file to have a beautiful, responsive, and center message in the page for the the user instead of JavaScript popup boxes.</br>
----
+___
 **Difficulties**</br>
 1- When I start to build the project, even with pseudo code i didn't know where and how to write the code for the functions.</br>
 2- Writing the code in JavaScrpit for each specific function.</br>
@@ -93,7 +92,7 @@ using swal library in the JavaScript file to have a beautiful, responsive, and c
 2- I would like to let the user choose the theme and the style of the game.</br>
 3- I would like to let the user to choose the music for the game.</br>
 4- The user shall have an account to save there scores and show the highest score between their friends.</br>
----
+___
 **Installation instructions:**</br>
 1- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>// to add a swal massage box.</br>
 2-  <iframe src="audio/The-Pink-Panther-Theme-Song.mp3" allow="autoplay" id="audio" style="display:none"></iframe></br>
