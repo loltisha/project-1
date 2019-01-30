@@ -19,10 +19,47 @@ add the style for the HTML page.</br>
 3- Keeping track of multiple game rounds with a win counter.</br>
 4- The main header changing its color from pink to black.</br>
 5- Try Again button, clears the board and continue game with previous score. </br>
+6- Dispaly a swal message to notify the player if they win or not. 
 **The approach used:**</br>
 1- If else statment to check the winner.</br>
 2- Object that have the score for the two players.</br>
 3- $('.class').off("click"); prevents the palyer to click into the same grid multiple times.</br>
+**New approach in CSS**</br>
+```
+function play(event) { // this function allow the palyer to click on the board game either X or O.
+
+    //(event.target).text(choice);
+    $(event.target).off("click");// prevent the palyer to click on the same grid multiple times.
+
+
+    // setTimeout(function () {
+
+
+
+    if (y === false) {// to prevent the palyer to continue playing the game once they win
+        if (choice === 'X') {
+            console.log("choice is x");
+            
+            $(event.target).text(choice);// insert the choice into the table.
+            $(event.target).css('background-image', 'url(images/im4.png)') //insert image token instead of X or O.
+            checkWinner(); // call the checkwinner function after each click on the board.
+            choice = 'O';
+        } else if(choice ===  "O") { // if the choice is not x then start with O.
+            console.log("choice is o");
+            $(event.target).text(choice);// insert the choice into the table
+            $(event.target).css('background-image', 'url(images/im5.png)')//insert image token instead of X or O.
+            checkWinner();// call the checkwinner function after each click on the board.
+            choice = 'X'; // if the choice is o then start the next game O.
+
+        }
+
+    }
+    // , 200)
+
+
+}
+```
+in this
 **Installation instructions:**</br>
 1- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>// to add a swal massage box.</br>
 2-  <iframe src="audio/The-Pink-Panther-Theme-Song.mp3" allow="autoplay" id="audio" style="display:none"></iframe></br>
