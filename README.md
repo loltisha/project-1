@@ -1,5 +1,5 @@
 # Tic Tac Toe Game </br> 
-[alt text](images/a12.png)
+![alt text](images/a12.png)
 **Description:**</br>
 It is a Pink Panther theme game where two players choose either an X or O to start a game in turns. The player who places three marks in vertical, horizontal, or diagonal row wins the game and shows a draw if neither player wins.</br>
 **Technologies used:**</br>
