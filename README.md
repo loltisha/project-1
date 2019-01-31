@@ -102,4 +102,6 @@ ___
     </audio></br>
 **Acknowledgement**</br>
 I would like to thank Michael Finneran, Moath Althawad, and Usman Bashir for helping, encouraging, and motivating me in this project.</br>
-Also, I would like to thank my friends Hala Al Maimoni and Saja AlGadhi for assisting me with issues and errors that faced me in this project.
+Also, I would like to thank my friends Hala Al Maimoni and Saja AlGadhi for assisting me with issues and errors that faced me in this project.</br>
+ Hala Al Maimoni   Github link:https://github.com/hala-almaimoni </br>
+ Saja AlGadhi:     Github link:https://github.com/sajaalgadhi </br>
